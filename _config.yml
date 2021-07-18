@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jay Paroline's Blog
+repository: wanderr/wanderr.github.io
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Engineering Manager at Dropbox exploring topics of engineering and management
@@ -95,6 +96,7 @@ defaults:
   - scope:
       path: ""
       type: posts
+      show_date: true
     values:
       layout: single
       author_profile: true
@@ -106,6 +108,7 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+      show_date: true
     values:
       layout: single
       author_profile: true
